@@ -1,0 +1,7 @@
+<apex:page standardController="Contact" extensions="myControllerExtension">
+    <apex:form>
+        <h1>Hello</h1><br/>
+        <apex:outputField value="{!Contact.Name}"/> <br/>
+        <apex:commandButton value="View All" action="{!OpenPage}"/>
+    </apex:form>
+</apex:page>

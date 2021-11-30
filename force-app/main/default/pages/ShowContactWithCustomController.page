@@ -1,0 +1,9 @@
+<apex:page controller="ContactController" tabStyle="Contact">
+    <apex:form>
+    <apex:pageBlock>
+            Contact Name: <apex:inputField value="{!Contact.name}"/><br/>
+            <apex:commandButton value="View All" action="{!OpenPage}"/>
+        </apex:pageBlock>
+    </apex:form>
+
+</apex:page>
